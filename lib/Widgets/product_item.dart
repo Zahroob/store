@@ -5,7 +5,7 @@ import 'package:store/screen/product_details_screen.dart';
 class ProductItem extends StatelessWidget {
   final ProductModel product;
 
-  const ProductItem({required this.product});
+  const ProductItem({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {

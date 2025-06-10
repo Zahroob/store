@@ -6,7 +6,7 @@ import '../cubit/cart_cubit.dart';
 class ProductDetailsScreen extends StatelessWidget {
   final ProductModel product;
 
-  const ProductDetailsScreen({required this.product});
+  const ProductDetailsScreen({super.key, required this.product});
 
   @override
   Widget build(BuildContext context) {
